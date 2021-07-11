@@ -1,8 +1,11 @@
+import Header from './components/Header'
+import Tasks from './components/Tasks'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <h2>Test</h2>
+    <div className="container">
+      <Header />
+      <Tasks />
     </div>
   );
 }
